@@ -1,0 +1,11 @@
+.heading
+{
+    font-size:23px;
+    width: 100%;
+    margin: 0px;
+}
+
+body
+{
+    background: linear-gradient(to bottom right, #33ccff 0%, #6699ff 77%);
+}
