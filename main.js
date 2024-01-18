@@ -5,9 +5,9 @@ video ="";
 function setup()
 {
     video = createCapture(VIDEO);
-    video.size(400,400);
+    video.size(450,450);
     video.hide();
-    canvas = createCanvas(400, 400);
+    canvas = createCanvas(450, 450);
     canvas.center();
 }
 
@@ -26,5 +26,5 @@ function modelLoaded()
 
 function draw()
 {
-    image(video, 0, 0, 400, 400);
+    image(video, 0, 130, 450, 450);
 }
